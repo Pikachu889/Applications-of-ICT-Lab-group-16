@@ -1,9 +1,10 @@
-num1 = int(input("Enter a number: "))
-num2 = int(input("Enter another number: "))
-print("The sum of the numbers is: ", num1+num2)
-print("The difference of the numbers is: ", num1-num2)
-print("The product of the numbers is: ", num1*num2)
-print("The decimal quotient of the numbers is: ", num1/num2)
-print("The integer quotient of the numbers is: ", num1//num2)
-print("The exponent of the numbers is: ", num1**num2)
-print("The remainder of the numbers is: ", num1%num2)
+
+a=21
+b=53
+print("The sum is", a+b)
+print("The difference is", a-b)
+print("The product is", a*b)
+print("The division is", a/b)
+print("The floor division is", a//b)
+print("The power is",a**b)
+print("The remainder is",a%b)
